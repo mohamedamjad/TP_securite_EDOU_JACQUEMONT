@@ -45,3 +45,7 @@ Malheureusement, la faille n'a pas été corrigée, nous avons donc bloqué le p
 
 # iptables -A INPUT -p tcp --dport 6667 -j DROP
 # iptables -A INPUT -p tcp --dport 6667 -s 8.8.8.8 -j ACCEPT
+
+### Les notes:
+JAQUEMONT: 15
+EDOU: 15
