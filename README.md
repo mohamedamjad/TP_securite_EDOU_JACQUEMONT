@@ -13,7 +13,7 @@ msf > db_nmap -v -sV 192.168.44.179
 
 1ere faille:
 
-faille sur vsftpd trouvée et exploitée (voir fichier vsfTPD.png)
+faille sur vsftpd trouvée et exploitée; CVE-2011-0762 (voir fichier vsfTPD.png)
 Cette faille exploite un backdoor qui a été installé dans l'archive d'installation de VSFTPD.
 
 Pour corriger cette faille, nous avons tenté de mettre à jour la version de vsftpd par les commandes suivantes:
@@ -25,3 +25,7 @@ elle n'ont malheureusement pas fonctionné, nous avons donc fermé le port 21 (u
 
 
 2eme faille:
+
+faille sur irc (unrealIRCD) trouvée et exploitée; CVE-2010-2075 (voir fichier irc.png)
+tout comme la 1ère faille, celle-ci exploite un backdoor qui a été installé dans l'archive d'installation.
+
