@@ -10,6 +10,9 @@ Consignes:
 lister les ports ouverts sur la metasploitable:
 msf > db_nmap -v -sV 192.168.44.179
 
+
+1ere faille:
+
 faille sur vsftpd trouvée et exploitée (voir fichier vsfTPD.png)
 Cette faille exploite un backdoor qui a été installé dans l'archive d'installation de VSFTPD.
 
@@ -19,3 +22,6 @@ Pour corriger cette faille, nous avons tenté de mettre à jour la version de vs
 
 elle n'ont malheureusement pas fonctionné, nous avons donc fermé le port 21 (utilisé par vsftpd):
 # iptables -A INPUT -p tcp --dport 21 -j DROP
+
+
+2eme faille:
